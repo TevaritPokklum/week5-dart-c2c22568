@@ -1,19 +1,7 @@
-import 'dart:io';
-void add(int num1,int num2){
- int sum = num1 + num2;
- print ('The sum is $sum');
-}
-
-void printName(){
-  String fullName = 'Mark Zuckerberg';
-  print("My sum is $fullName");
-}
+import 'package:dart_week5_1/function_return.dart';
 
 void main() {
-  print ("Enter nums:");
-  int nums1 = int.parse(stdin.readLineSync()!);
-  int nums2 = int.parse(stdin.readLineSync()!);
-  
-  printName();
-  add(nums1, nums2);
+  calfunction();
+  //printName();
 }
+      
