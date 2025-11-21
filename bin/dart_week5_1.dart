@@ -1,7 +1,14 @@
-import 'package:dart_week5_1/optional_named.dart';
+
+
+import 'package:dart_week5_1/anonymouse_fuction.dart';
+
+
 
 void main() {
-  callInfo();
+  fruitInfo();
+  //callsay();
+  //callInfo();
+  //callInfo();
   //callPrint();
   //calfunction();
   //printName();
